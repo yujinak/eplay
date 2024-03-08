@@ -5,27 +5,9 @@ import { GalleryItem } from '../../pages/Home'
 
 import { Itens, Item, Action, Modal, ModalContent } from './styles'
 
-import spiderman from '../../assets/banner-homem-aranha.png'
-import hogwarts from '../../assets/hogwarts.png'
-
 import play from '../../assets/play.png'
 import zoom from '../../assets/zoom.png'
 import fechar from '../../assets/close.png'
-
-const mock: GalleryItem[] = [
-  {
-    type: 'image',
-    url: spiderman
-  },
-  {
-    type: 'image',
-    url: hogwarts
-  },
-  {
-    type: 'video',
-    url: 'https://www.youtube.com/embed/uHGShqcAHlQ?si=PupjUZJGe1IAqMLs'
-  }
-]
 
 type Props = {
   defaultCover: string

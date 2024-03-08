@@ -5,7 +5,6 @@ import Hero from '../../components/Hero'
 import Section from '../../components/Section'
 import Gallery from '../../components/Gallery'
 
-import residentEvil from '../../assets/resident.png'
 import { Game } from '../Home'
 
 const Product = () => {
